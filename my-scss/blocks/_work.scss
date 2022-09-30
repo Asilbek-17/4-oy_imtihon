@@ -1,0 +1,47 @@
+.work {
+    padding-top: 83px;
+    padding-bottom: 165px;
+}
+
+.work-top {
+    width: 826px;
+    margin: 0 auto;
+}
+
+.work-title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 187.5%;
+    color: #222222;
+}
+
+.work-box {
+    width: 1010px;
+    margin-right: auto;
+    margin-left: 71px;
+    padding-bottom: 508px;
+    background-image: url("../images/digitial.jpg"), url("../../images/icons/digitial-top.svg");
+    background-repeat: no-repeat;
+    background-position: calc(0) calc(100%), calc(100%) calc(50% - 110px);
+}
+
+.work-child-box {
+    width: 545px;
+}
+
+.work-box-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 187.5%;
+    color: #222222;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.work-box-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187.5%;
+    color: #525252;
+    margin: 0;
+}
