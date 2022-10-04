@@ -386,16 +386,6 @@ template {
           box-sizing: inherit;
 }
 
-::-moz-selection {
-  background-color: darkcyan;
-  color: gold;
-}
-
-::selection {
-  background-color: darkcyan;
-  color: gold;
-}
-
 html {
   height: 100%;
   -webkit-box-sizing: border-box;
