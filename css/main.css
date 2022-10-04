@@ -1581,6 +1581,7 @@ body {
 .site-footer {
   padding-top: 66px;
   padding-bottom: 29px;
+  padding-right: 15px;
   background-color: #1B1B1B;
 }
 
@@ -1663,6 +1664,11 @@ body {
 .social-item {
   width: 34px;
   height: 34px;
+  border-radius: 50%;
+}
+
+.social-img {
+  border-radius: 50%;
 }
 
 .foot-botoom {
