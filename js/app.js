@@ -1,3 +1,11 @@
+var elBtnOpen = document.querySelector(".burger")
+var elNav = document.querySelector(".navigation")
+
+elBtnOpen.addEventListener("click", function(){
+    elNav.classList.toggle("nav-show")
+    elBtnOpen.classList.toggle("burger-bg")
+})
+
 $(document).on('ready', function() {
     $(".vertical-center-4").slick({
         dots: true,
@@ -54,8 +62,16 @@ $(document).on('ready', function() {
         infinite: true
     });
 });
+
 $('.autoplay').slick({
     slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  });
+
+  $('.autoplay-2').slick({
+    slidesToShow: 8,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,

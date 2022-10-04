@@ -84,7 +84,7 @@ ___| (_) ___| | __  (_)___
                     touchThreshold: 5,
                     useCSS: true,
                     useTransform: true,
-                    variableWidth: false,
+                    variableWidth: true,
                     vertical: false,
                     verticalSwiping: false,
                     waitForAnimate: true,
