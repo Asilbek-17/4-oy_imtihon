@@ -1140,7 +1140,7 @@ body {
     width: 299px !important;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 320px) {
   .mycard {
     width: 280px !important;
   }
